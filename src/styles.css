@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+#sidebar {
+  height: 100%;
+  min-height: 100vh;
+  min-width: 180px;
+}
+
+.logo {
+  border: 1px;
+  padding: 1px;
+  background-color: gray;
+  border-color: chartreuse;
+  text-align: center;
+  border-radius: 50%;
+}
+
+h3.logo {
+  font-family: comic sans ms;
+}
+
+h5 {
+  color: honeydew;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.buscar {
+  color: white;
+  text-align: center;
+}
+
+.barrabuscar {
+  width: 100%;
+}
